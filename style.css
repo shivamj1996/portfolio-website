@@ -1,0 +1,1079 @@
+*{
+    
+    padding:0;
+    margin:0;
+    
+    
+    
+}
+
+h1{
+   font-family: 'Rubik', sans-serif; 
+    color:crimson;
+    
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    line-height: 1.5em;
+}
+.nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    height: 100%;
+    
+    -webkit-box-align: center;
+    
+    -ms-flex-align: center;
+    
+    align-items: center;
+    text-decoration: none;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+
+.nav ul li{
+    
+    list-style:none;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin-right: 30px;
+    
+
+    
+    
+    
+    
+}
+
+.nav ul li a{
+     list-style:none;
+    -ms-flex-line-pack: center;
+    align-content: center;
+   text-decoration: none;
+    
+    color:crimson;
+    
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+.nav ul li a:hover{
+    
+   color:black;
+    
+}
+
+.logo {
+ 
+    height: 100%;
+    width:180px;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.logo a{
+    
+    
+    color:crimson;
+    font-size: 25px;
+    
+   font-weight: bold;
+    
+    text-decoration: none;
+    
+}
+
+.logo a:hover{
+    
+
+   color:black;
+    
+}
+
+
+.nav-mixed{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 3rem;
+     background-color: #FCFAFA;
+    
+    
+}
+
+.background{
+    background-color: #FCFAFA;
+   height: calc(80vh);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.intro-section h1{
+    
+    letter-spacing: 0px;
+    text-align: center;
+    
+   
+    font-size: 50px;
+    
+    font-weight: bold;
+  
+  
+    
+   
+    
+}
+
+.intro-section p{
+    text-align: center;
+    font-size: 30px;
+    color: #252627;
+}
+
+
+.portfolio-section{
+    
+    
+    
+    background-image: url(images/footer_lodyas.png);
+    padding-bottom: 20px;
+}
+
+.portfolio-section h1{
+    
+    padding-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    
+    padding-bottom: 20px;
+    
+    
+}
+
+
+.about-section {
+    
+    background-color: #FCFAFA;
+   
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; /* Vertical center alignment */
+    padding-bottom: 50px;
+        
+    
+}
+
+.about-section h1{
+   
+    
+    padding-top: 50px;
+    font-size: 40px;
+    
+    
+}
+
+.about-section p{
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+
+.icons{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+}
+.icons img{
+    padding-top: 10vh;
+    
+    -ms-flex-item-align: center;
+    
+    -ms-grid-row-align: center;
+    
+    align-self: center;
+    height: 75px;
+    width: auto;
+    
+    
+    
+}
+
+
+
+.contact{
+   background-image: url(images/footer_lodyas.png);
+    
+}
+
+
+.contact h1{
+    text-align: center;
+    color:crimson;
+    
+    padding-top: 25px;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+    color:crimson;
+    
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    
+    padding: 60px;
+    font-size: 90px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+     
+    
+}
+
+
+.socialmediabuttons{
+   font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+    margin: 30px auto 0px;
+   
+    
+    -ms-flex-pack: distribute;
+   
+    
+    justify-content: space-around;
+    
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+
+.fa-envelope {
+    background: crimson;
+    color: white;
+}
+
+hr {
+     color: crimson;
+     background: crimson;
+     width: 86%; 
+     height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact h2{
+    font-size:40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Rubik', sans-serif; 
+    font-weight: 100;
+}
+
+
+
+
+
+
+.gallery {
+    
+  margin: 0 auto;
+  padding: 1em;
+  
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  
+  list-style-type: none;
+    max-width: 1440px;
+    
+    
+}
+.gallery-item {
+    position: relative;
+
+  padding-bottom: 10px;
+ 
+  
+  min-width: 150px;
+}
+
+.gallery-item p{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute; 
+   top: 20px; 
+   left:0;
+    font-size: 35px;
+   margin-left: 0.35%;
+}
+
+.gallery-item span{
+    color: white; 
+   
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.gallery img{
+    
+   max-width: 600px;
+    max-height: 500px;
+    min-width: 600px;
+    min-height: 500px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition:all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-style:solid;
+    border-width: 2px;
+    border-color: crimson;
+    -o-object-fit:cover;
+    object-fit:cover;
+    
+}
+
+
+.gallery img:hover{
+    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    opacity: 0.5;
+  
+}
+
+
+/***** START: HCI ECOMMERCE START
+__________________________________________________________*****/
+
+
+.HCIbackground{
+    background-image:url(images/zara1.jpg);
+    background-position: top;
+   height: calc(80vh);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+    
+}
+
+
+
+
+.HCIintro-section h1{
+    
+    letter-spacing: 0px;
+ 
+   
+   text-align: center;
+    font-size: 50px;
+    
+    font-weight: bold;
+  
+  
+    
+   
+    
+}
+
+.HCIintro-section p{
+    text-align: center;
+    font-size: 30px;
+    color: #252627;
+}
+
+.HCIprojectdesc{
+    padding-top: 50px;
+     background-color: #F0EFED;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+}
+
+.HCIprojectdesc p{
+    
+    
+    width: 70%;
+    text-align: center;
+    
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+
+.HCIprojectdesc img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.HCIprojectdesc a{
+   
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    background-color: crimson;
+    
+    padding: 15px;
+   
+      -webkit-transition:background-color 0.5s ease;
+   transition: background-color 0.5s ease;
+    
+}
+
+.HCIprojectdesc a:hover{
+
+    color: crimson;
+    
+    background-color: white;
+
+    
+}
+/***** START: MVC ECOMMERCE START
+__________________________________________________________*****/
+
+
+.MVCbackground{
+    background-image:url(images/750gum.jpg);
+    background-position: center center;
+    background-size: contain;
+    
+   height: calc(80vh);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+    
+}
+
+
+
+
+.MVCintro-section h1{
+    
+    letter-spacing: 0px;
+    
+   
+   
+    font-size: 50px;
+    text-align: center;
+    
+    font-weight: bold;
+  
+  
+    
+   
+    
+}
+
+.MVCintro-section p{
+    text-align: center;
+    font-size: 30px;
+    color: #252627;
+}
+
+.MVCprojectdesc{
+    
+     background-color: rgb(237,237,227);
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+}
+
+.MVCprojectdesc p{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    
+    
+    
+}
+
+.MVCprojectdesc img{
+    display: block;
+    margin: 0 auto;
+}
+
+.MVCprojectdesc a{
+     text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    background-color: crimson;
+    
+    padding: 15px;
+   -webkit-transition:background-color 0.5s ease;
+   transition: background-color 0.5s ease;
+    
+}
+
+.MVCprojectdesc a:hover{
+
+    color: crimson;
+    
+    background-color: white;
+
+    
+}
+
+/***** START: SHOeE ECOMMERCE START
+__________________________________________________________*****/
+
+
+.SHOEbackground{
+    background-image:url(images/yeezyboots1.jpg);
+    background-size: cover;
+    background-position: center center;
+   height: calc(80vh);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+    
+}
+
+
+
+
+.SHOEintro-section h1{
+    
+    letter-spacing: 0px;
+    
+  text-align: center;
+   
+    font-size: 50px;
+    
+    font-weight: bold;
+  
+  
+    
+   
+    
+}
+
+.SHOEintro-section p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.SHOEprojectdesc{
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+}
+
+.SHOEprojectdesc p{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    
+    
+    
+}
+
+.SHOEprojectdesc img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.SHOEprojectdesc a{
+     text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    background-color: crimson;
+    
+    padding: 15px;
+   
+    -webkit-transition:background-color 0.5s ease;
+   
+    transition: background-color 0.5s ease;
+}
+
+.SHOEprojectdesc a:hover{
+
+    color: crimson;
+    
+    background-color: white;
+
+    
+}
+
+/***** START: UX START
+__________________________________________________________*****/
+
+
+.UXbackground{
+    background-image:url(images/kanye1.jpg);
+    background-size: cover;
+    background-position: center center;
+   height: calc(80vh);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; /* Vertical center alignment */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; /* Horizontal center alignment */
+    
+    
+}
+
+/***** END: FORM SECTION
+__________________________________________________________*****/
+
+
+
+.footer{
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    font-size:1em;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer ul{
+    
+     display: -webkit-box;
+    
+     display: -ms-flexbox;
+    
+     display: flex;
+     
+    padding-top: 0.5rem;
+    
+    -webkit-box-pack: center;
+    
+    -ms-flex-pack: center;
+    
+    justify-content: center; 
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer ul li {
+    list-style: none;
+    -ms-flex-line-pack: center;
+    align-content: center;
+     margin-right: 15px;
+    font-weight: bold;
+    
+    
+}
+.footer a {
+    color:white;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .gallery img{
+        max-height: 400px;
+        min-height: 400px;
+        max-width: 500px;
+        min-width: 500px;
+    }
+    
+   .gallery-item p{
+    
+   top: 300px; 
+   left:0;
+    font-size: 20px;
+    
+}
+    
+    .nav ul{
+     padding-top: 15px;
+    
+    
+    
+    
+}
+    
+    
+}
+
+@media screen and (max-width:480px){
+    .gallery img{
+        max-height: 250px;
+        min-height: 250px;
+        max-width: 350px;
+        min-width: 350px;
+    }
+    
+   .gallery-item p{
+    
+   top: 130px; 
+   left:0;
+    font-size: 20px;
+    
+}
+    
+    
+    .fa {
+    
+    padding:30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+     
+    
+}
+    
+    .logo a{
+    
+    
+   
+    font-size: 19px;
+    
+   
+    
+}
+    
+    .nav ul{
+     padding-top: 15px;
+    
+    
+    
+    
+}
+    
+    
+    
+    
+    .MVCintro-section h1{
+    font-size:30px;
+}
+
+.MVCintro-section p{
+    font-size: 16px;
+}
+    
+    .HCIintro-section h1{
+    font-size:30px;
+}
+
+.HCIintro-section p{
+    font-size: 16px;
+}    
+    
+      .SHOEintro-section h1{
+    font-size:30px;
+}
+
+.SHOEintro-section p{
+    font-size: 16px;
+}     
+    
+        .MVCprojectdesc img{
+    width: 100%;
+}
+    
+    .HCIprojectdesc img{
+    width: 100%;
+}
+    
+    .SHOEprojectdesc img{
+    width: 100%;
+}
+    
+    
+}
+
+
+
+
+@media screen and (max-width:320px){
+    .gallery img{
+        max-height: 200px;
+        min-height: 200px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    
+   .gallery-item p{
+    
+   top: 130px; 
+   left:0;
+    font-size: 20px;
+    
+}
+    
+    
+    .fa {
+    
+    padding:30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+     
+    
+}
+    
+    .logo a{
+    
+    
+   
+    font-size: 11px;
+    
+   
+    
+}
+    
+    .nav ul li a{
+    
+    
+    font-size: 10px;
+   
+    
+    
+}
+    
+    
+    .contact h2{
+    font-size:20px;
+   
+}
+
+    .nav ul{
+     padding-top: 15px;
+    
+    
+    
+    
+}
+
+       .MVCintro-section h1{
+    font-size:30px;
+}
+
+.MVCintro-section p{
+    font-size: 16px;
+}
+    
+    .HCIintro-section h1{
+    font-size:30px;
+}
+
+.HCIintro-section p{
+    font-size: 16px;
+}    
+    
+      .SHOEintro-section h1{
+    font-size:30px;
+}
+
+.SHOEintro-section p{
+    font-size: 16px;
+}  
+    
+    .MVCprojectdesc img{
+    width: 100%;
+}
+    
+    .HCIprojectdesc img{
+    width: 100%;
+}
+    
+    .SHOEprojectdesc img{
+    width: 100%;
+}
+    
+    
+}
